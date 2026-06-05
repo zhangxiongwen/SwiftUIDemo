@@ -1,0 +1,1059 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    ".baseNavigationBar(\n    title: \"透明度\",\n    backgroundColor: AppColors.background.opacity(barBackgroundOpacity)\n)" : {
+
+    },
+    ".baseNavigationBar(title: \"基础用法\")" : {
+
+    },
+    "[%lld]" : {
+
+    },
+    "【系统 A】dialogStack" : {
+
+    },
+    "【系统 B】本页 @State + SwiftUI .fullScreenCover 是另一套，画在 pageCover 子树里，不进 dialogStack。" : {
+
+    },
+    "【系统 B】页面内 SwiftUI" : {
+
+    },
+    "@State private var hideCustomBar = false\n\n.baseNavigationBar(\n    title: \"隐藏/显示\",\n    hidden: hideCustomBar\n)" : {
+
+    },
+    "%lld%%" : {
+
+    },
+    "+86" : {
+
+    },
+    "138 **** 8888" : {
+
+    },
+    "138****8888" : {
+
+    },
+    "404" : {
+
+    },
+    "ActionSheet（fullScreenCover 底部样式）" : {
+
+    },
+    "Alert（fullScreenCover）" : {
+
+    },
+    "B·页面内 Cover" : {
+
+    },
+    "common_confirm" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Confirm"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "确定"
+          }
+        }
+      }
+    },
+    "common_loading" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading..."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加载中..."
+          }
+        }
+      }
+    },
+    "common_prompt" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notice"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "提示"
+          }
+        }
+      }
+    },
+    "count" : {
+
+    },
+    "Cover 层" : {
+
+    },
+    "Cover 根无内层 push 时，back() 等价 dismissCover。" : {
+
+    },
+    "Cover 根返回请用 navigator.back()：无内层 push 时 dismissCover 关 Cover；有 push 时先 pop 内层。" : {
+
+    },
+    "Custom View（Sheet 底部样式）" : {
+
+    },
+    "Deep Dismiss Demo" : {
+
+    },
+    "detail_nav_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Details"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "详情"
+          }
+        }
+      }
+    },
+    "error_decoding_failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Data decoding failed"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "数据解析失败"
+          }
+        }
+      }
+    },
+    "error_invalid_response" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid server response"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服务器响应格式错误"
+          }
+        }
+      }
+    },
+    "error_invalid_url" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Invalid URL"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "无效的 URL"
+          }
+        }
+      }
+    },
+    "error_request_failed" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Request failed: %@"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "网络请求失败: %@"
+          }
+        }
+      }
+    },
+    "error_server_error" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Server error (Code: %d)"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "服务器异常 (代码: %d)"
+          }
+        }
+      }
+    },
+    "error_unknown" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Unknown error"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未知错误"
+          }
+        }
+      }
+    },
+    "extra · 字典 [String: String]" : {
+
+    },
+    "extra · 数组 [String]" : {
+
+    },
+    "extra · 自定义对象" : {
+
+    },
+    "hidden 控制是否绘制自绘栏；系统栏始终由 modifier 隐藏。" : {
+
+    },
+    "home_nav_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Discover"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "发现"
+          }
+        }
+      }
+    },
+    "home_no_data" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No content yet"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无内容"
+          }
+        }
+      }
+    },
+    "home_tab_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Home"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "首页"
+          }
+        }
+      }
+    },
+    "leading / title / trailing 均可传入任意 View。" : {
+
+    },
+    "login_agreement" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "By logging in, you agree to the User Agreement"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "点击登录即代表同意《用户协议》"
+          }
+        }
+      }
+    },
+    "login_btn_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Login Now"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "立即登录"
+          }
+        }
+      }
+    },
+    "login_code_placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verification Code"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "验证码"
+          }
+        }
+      }
+    },
+    "login_phone_placeholder" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phone Number"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手机号"
+          }
+        }
+      }
+    },
+    "login_subtitle" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Please login with your phone"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "请使用手机号登录"
+          }
+        }
+      }
+    },
+    "login_welcome" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Welcome Back"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "欢迎回来"
+          }
+        }
+      }
+    },
+    "navigator.back()" : {
+
+    },
+    "navigator.back() 关 Cover" : {
+
+    },
+    "navigator.back() 返回上一层" : {
+
+    },
+    "navigator.dismissCover()" : {
+
+    },
+    "navigator.hasPushedPages = %@" : {
+
+    },
+    "path 已 append，但目标页在弹层下面，看起来像 push 失败。" : {
+
+    },
+    "pop" : {
+
+    },
+    "pop / pop(steps:) / popToRoot" : {
+
+    },
+    "present B 时 A 会隐藏（仍在队列里）；关闭 B 后 A 自动重新出现。" : {
+
+    },
+    "present 出来的层和根 NavigationStack 是两套 UI 树。在弹层里调外层 navigator.push，路径会变，但新页画在弹层下面，所以像「不能 push」。" : {
+
+    },
+    "presentNavigationPage" : {
+
+    },
+    "presentPage" : {
+
+    },
+    "PrimaryButton · ToastView 等" : {
+
+    },
+    "push(枚举, query, extra)" : {
+
+    },
+    "pushDepth" : {
+
+    },
+    "pushPath 示例" : {
+
+    },
+    "pushPath(字符串, query, extra)" : {
+
+    },
+    "query 传字符串键值；extra 可传 Hashable 对象、字典、数组等，目标页自行 as? 解析。" : {
+
+    },
+    "query 参数" : {
+
+    },
+    "rawValue" : {
+
+    },
+    "settings_about" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "About"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "关于我们"
+          }
+        }
+      }
+    },
+    "settings_clear_cache" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear Cache"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "清理缓存"
+          }
+        }
+      }
+    },
+    "settings_language" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Language"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "语言设置"
+          }
+        }
+      }
+    },
+    "settings_logout" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Log Out"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "退出登录"
+          }
+        }
+      }
+    },
+    "settings_nav_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "设置"
+          }
+        }
+      }
+    },
+    "settings_privacy" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Privacy Policy"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "隐私政策"
+          }
+        }
+      }
+    },
+    "settings_profile" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Profile"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "个人资料"
+          }
+        }
+      }
+    },
+    "settings_tab_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Me"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的"
+          }
+        }
+      }
+    },
+    "settings_terms" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terms of Service"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用户协议"
+          }
+        }
+      }
+    },
+    "settings_theme" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Theme"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "主题设置"
+          }
+        }
+      }
+    },
+    "settings_version" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Version"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "当前版本"
+          }
+        }
+      }
+    },
+    "Sheet 层" : {
+
+    },
+    "showLoading / hideLoading" : {
+
+    },
+    "showLoading 1.5s" : {
+
+    },
+    "showToast" : {
+
+    },
+    "source" : {
+
+    },
+    "SwiftUI `.alert`，叠在自定义 Dialog 的 fullScreenCover 上。" : {
+
+    },
+    "title" : {
+
+    },
+    "Toast / Loading" : {
+
+    },
+    "ViewPresenter 宿主：整页 Cover 占 pageCover 槽，不关第 1 层就不会卸掉。" : {
+
+    },
+    "web_loading" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Loading..."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "加载中..."
+          }
+        }
+      }
+    },
+    "下面按钮走【系统 A】navigator → 弹窗画在 ViewPresenter 宿主最顶上，会盖住整块 pageCover（含本层 B）。" : {
+
+    },
+    "不占用 pageCover，也不进 dialogStack；与第 1 层并行存在。" : {
+
+    },
+    "不逐层 pop，直接关掉 presentNavigationPage 弹出的整页。" : {
+
+    },
+    "与左上角导航栏返回相同，均走 Navigator 统一 back 逻辑。" : {
+
+    },
+    "两套 Presentation" : {
+
+    },
+    "两套系统对照" : {
+
+    },
+    "个人资料页" : {
+
+    },
+    "主要按钮" : {
+
+    },
+    "位置" : {
+
+    },
+    "你在【系统 B】里。这一层由本页 @State 控制，与 dialogStack 无关。" : {
+
+    },
+    "使用自定义 baseNavigationBar；返回即 navigator.back()。此层不能 navigator.push。" : {
+
+    },
+    "侧滑返回" : {
+
+    },
+    "允许侧滑返回（默认开启）" : {
+
+    },
+    "先连 push 到第 3 层，再试 pop(steps: 2) 一次退回 2 页。" : {
+
+    },
+    "关于我们" : {
+
+    },
+    "关闭" : {
+
+    },
+    "关闭 A·整页 Cover" : {
+
+    },
+    "关闭 B·页面内 Cover" : {
+
+    },
+    "关闭 Cover" : {
+
+    },
+    "关闭 Sheet" : {
+
+    },
+    "关闭后：返回按钮使用默认 navigator.back()；侧滑返回也可用。" : {
+
+    },
+    "关闭第 1 层" : {
+
+    },
+    "其上的 Alert / ActionSheet / custom 走 dialogStack，叠在整页之上。" : {
+
+    },
+    "再弹 Alert（同一 navigator）" : {
+
+    },
+    "再弹一层" : {
+
+    },
+    "最新动态" : {
+
+    },
+    "分段与选择" : {
+
+    },
+    "列表" : {
+
+    },
+    "加载中..." : {
+
+    },
+    "取消" : {
+
+    },
+    "外层 navigator.push（不 dismiss）" : {
+
+    },
+    "多行" : {
+
+    },
+    "大标题" : {
+
+    },
+    "如果你既要拦截返回按钮，又要允许侧滑，请把 allowsSwipeBack 设为 true，并自行接受“侧滑不会走 onBack”这一点。" : {
+
+    },
+    "字符串标题 + 自动返回" : {
+
+    },
+    "完全自定义弹窗" : {
+
+    },
+    "完成" : {
+
+    },
+    "对比" : {
+
+    },
+    "对照：无弹层直接 push" : {
+
+    },
+    "小标题" : {
+
+    },
+    "嵌套：Cover 内 navigator" : {
+
+    },
+    "嵌套：自定义 × 系统" : {
+
+    },
+    "嵌套：自定义 × 自定义（两套系统）" : {
+
+    },
+    "嵌套试验" : {
+
+    },
+    "左侧关闭 · 中间图标标题 · 右侧完成" : {
+
+    },
+    "底部上滑样式，走 fullScreenCover 队列。" : {
+
+    },
+    "开关与滑块" : {
+
+    },
+    "开启后：返回按钮会先弹窗确认；同时默认禁用侧滑，避免系统 pop 绕过你的逻辑。" : {
+
+    },
+    "弹出系统 Alert（第 2 层）" : {
+
+    },
+    "弹出系统 Sheet（第 3 层）" : {
+
+    },
+    "当前 pushDepth：%lld" : {
+
+    },
+    "当前值：%lld%%" : {
+
+    },
+    "当前在 %@ 内" : {
+
+    },
+    "当前所在层" : {
+
+    },
+    "当前栈" : {
+
+    },
+    "当前页" : {
+
+    },
+    "手动控制" : {
+
+    },
+    "打开弹层（再在里面 push）" : {
+
+    },
+    "打开模版应用" : {
+
+    },
+    "拖动滑块观察导航栏背景渐变" : {
+
+    },
+    "按钮样式" : {
+
+    },
+    "按钮里调用 navigator.dismiss()" : {
+
+    },
+    "整页 Present 与 Dialog 弹窗分离演示。本页 @State navigator + .navigator(navigator)。" : {
+
+    },
+    "时长" : {
+
+    },
+    "未找到对应页面" : {
+
+    },
+    "本页 @State navigator + .navigator(navigator)；push / present 统一走 Navigator。" : {
+
+    },
+    "本页 layer" : {
+
+    },
+    "本页 navigator：弹窗栈 %lld 层 · Cover %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "本页 navigator：弹窗栈 %1$lld 层 · Cover %2$@"
+          }
+        }
+      }
+    },
+    "来源 from = %@" : {
+
+    },
+    "根视图已挂载 .appHUDConfig()。任意页面（含 present）调用 showLoading() 即可。超过 60 秒会自动 hideLoading。" : {
+
+    },
+    "模式" : {
+
+    },
+    "模版模块" : {
+
+    },
+    "模版用 presentNavigationPage 打开（内层 Nav + 全量路由）。" : {
+
+    },
+    "次要按钮" : {
+
+    },
+    "正确：presentNavigationPage" : {
+
+    },
+    "独立 AppRouter + AppRouteRegistry.all；下列 push 在 Cover 内可见。" : {
+
+    },
+    "由系统 Alert 的按钮打开；Alert 点按钮后已被系统 dismiss。" : {
+
+    },
+    "目录" : {
+
+    },
+    "直接关闭整页 Cover" : {
+
+    },
+    "真实 SwiftUI `.alert`：点按钮后系统会 dismiss，再开 `.sheet` 时 Alert 通常已消失（平台行为）。" : {
+
+    },
+    "视觉上像「B 被 Alert 替换」；关 Alert 后 B 一般仍在（showNestedFullScreenCover 未变）。" : {
+
+    },
+    "第 1 层 Cover" : {
+
+    },
+    "第 2 层：系统 Alert" : {
+
+    },
+    "第二层" : {
+
+    },
+    "系统 Sheet" : {
+
+    },
+    "组件预览" : {
+
+    },
+    "继续 push" : {
+
+    },
+    "继续嵌套 push" : {
+
+    },
+    "网格" : {
+
+    },
+    "背景透明度" : {
+
+    },
+    "自定义 onBack（拦截点击事件）" : {
+
+    },
+    "自定义 Sheet" : {
+
+    },
+    "自定义标题" : {
+
+    },
+    "自定义返回（body 内）" : {
+
+    },
+    "自绘栏已隐藏" : {
+
+    },
+    "自绘栏显示中" : {
+
+    },
+    "若希望第 4 层也在同一队列，请用 navigator.presentCustomView / presentPage，别混用 B。" : {
+
+    },
+    "要在 present 的模块里继续跳转：像模版 App 一样，在 Cover 内再包一层 NavigationStack + 自己的 router（见下方 ④）。" : {
+
+    },
+    "设计系统组件，与 AppBaseComponents 分离。" : {
+
+    },
+    "详情页 ID: %lld" : {
+
+    },
+    "说明" : {
+
+    },
+    "请检查路径是否已在根视图 `navigationStackRouter` 中注册。" : {
+
+    },
+    "跨系统叠加（易误解）" : {
+
+    },
+    "路径" : {
+
+    },
+    "路由嵌套 · push" : {
+
+    },
+    "路由嵌套 · pushPath" : {
+
+    },
+    "返回" : {
+
+    },
+    "返回按钮拦截" : {
+
+    },
+    "进入内层 push" : {
+
+    },
+    "进入内层后连续 push；到第 3 层时点 dismissCover，一次性关闭本 Cover，无需逐层 back。" : {
+
+    },
+    "适合模版 App 等根视图已自带 NavigationStack 的场景。" : {
+
+    },
+    "逐层返回" : {
+
+    },
+    "通知开关" : {
+
+    },
+    "通过 backgroundColor 的 alpha 控制背景透明度，拖动滑块会实时更新。" : {
+
+    },
+    "队列深度：%lld" : {
+
+    },
+    "队列演示" : {
+
+    },
+    "隐藏自绘导航栏 (hidden)" : {
+
+    },
+    "页面内容区域" : {
+
+    }
+  },
+  "version" : "1.0"
+}
