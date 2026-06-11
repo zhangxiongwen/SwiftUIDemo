@@ -11,6 +11,8 @@ enum AppRouteRegistry {
     @AppRouteBuilder
     static func all() -> [RouteRegistration] {
         CustomViewsRoute.self
+        CombineRoute.self
+        NetworkDemoRoute.self
         TemplateRoute.self
     }
 }

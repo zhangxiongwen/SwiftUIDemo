@@ -12,6 +12,7 @@
 		6210DA4D2EEDA24C0051F3CC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6210DA4C2EEDA24C0051F3CC /* Kingfisher */; };
 		6210DA4F2EEDA3BD0051F3CC /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 6210DA4E2EEDA3B00051F3CC /* .swiftlint.yml */; };
 		6210DA522EEDA4AC0051F3CC /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 6210DA512EEDA4AC0051F3CC /* .gitignore */; };
+		6210DA552EEDA5000051F3CC /* Moya in Frameworks */ = {isa = PBXBuildFile; productRef = 6210DA572EEDA5000051F3CC /* Moya */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6210DA4D2EEDA24C0051F3CC /* Kingfisher in Frameworks */,
+				6210DA552EEDA5000051F3CC /* Moya in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +141,7 @@
 			name = SwiftUIDemo;
 			packageProductDependencies = (
 				6210DA4C2EEDA24C0051F3CC /* Kingfisher */,
+				6210DA572EEDA5000051F3CC /* Moya */,
 			);
 			productName = SwiftUIDemo;
 			productReference = 6210D9A02EED27650051F3CC /* SwiftUIDemo.app */;
@@ -225,6 +228,7 @@
 			minimizedProjectReferenceProxies = 1;
 			packageReferences = (
 				6210DA442EED9FE10051F3CC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				6210DA562EEDA5000051F3CC /* XCRemoteSwiftPackageReference "Moya" */,
 			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 6210D9A12EED27650051F3CC /* Products */;
@@ -618,6 +622,14 @@
 				minimumVersion = 8.6.2;
 			};
 		};
+		6210DA562EEDA5000051F3CC /* XCRemoteSwiftPackageReference "Moya" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Moya/Moya.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 15.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -625,6 +637,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 6210DA442EED9FE10051F3CC /* XCRemoteSwiftPackageReference "Kingfisher" */;
 			productName = Kingfisher;
+		};
+		6210DA572EEDA5000051F3CC /* Moya */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6210DA562EEDA5000051F3CC /* XCRemoteSwiftPackageReference "Moya" */;
+			productName = Moya;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};

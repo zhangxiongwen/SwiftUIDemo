@@ -10,6 +10,16 @@ struct ToolsPage: View {
 
     var body: some View {
         List {
+            Section("网络") {
+                Button {
+                    navigator.push(NetworkDemoRoute.moyaDemo)
+                } label: {
+                    Label("Moya 网络 Demo", systemImage: "network")
+                        .foregroundStyle(AppColors.textPrimary)
+                }
+                .buttonStyle(.plain)
+            }
+
             Section("模版模块") {
                 Button {
                     TemplateLauncher.open(from: navigator)

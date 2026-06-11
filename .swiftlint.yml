@@ -1,0 +1,34 @@
+disabled_rules:
+  - trailing_whitespace
+  - todo
+  - line_length
+  - identifier_name
+  - type_name
+  - force_cast
+
+opt_in_rules:
+  - empty_count
+  - empty_string
+
+excluded:
+  - Pods
+  - .bundle
+  - Carthage
+  - Resources
+  - App/Layout/RouteCoordinator.swift
+
+line_length: 120
+warning_threshold: 1000
+
+custom_rules:
+  no_hardcoded_colors:
+    name: "No Hardcoded Colors"
+    regex: 'Color\.(red|blue|green|yellow|black|white|gray)'
+    message: "Don't use system colors directly. Use AppColors instead."
+    severity: error
+  
+  no_hardcoded_font:
+    name: "No Hardcoded Fonts"
+    regex: '\.system\(size:'
+    message: "Don't use raw font sizes. Use AppFonts instead."
+    severity: warning

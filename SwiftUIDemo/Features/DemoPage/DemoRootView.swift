@@ -16,7 +16,7 @@ struct DemoRootView: View {
         [
             .init(selection: .system, title: "系统控件", systemImage: "square.grid.2x2"),
             .init(selection: .custom, title: "自定义控件", systemImage: "paintbrush"),
-            .init(selection: .async, title: "异步", systemImage: "arrow.triangle.2.circlepath"),
+            .init(selection: .async, title: "Combine", systemImage: "arrow.triangle.2.circlepath"),
             .init(selection: .tools, title: "工具", systemImage: "wrench.and.screwdriver")
         ]
     }
@@ -29,7 +29,7 @@ struct DemoRootView: View {
             CustomViewsPage()
                 .tag(DemoTab.custom)
 
-            AsyncPage()
+            CombinePage()
                 .tag(DemoTab.async)
 
             ToolsPage()
